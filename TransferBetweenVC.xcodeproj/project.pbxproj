@@ -14,6 +14,7 @@
 		AA27C13323FE7D5800A54265 /* TransferBetweenVC.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AA27C13123FE7D5800A54265 /* TransferBetweenVC.xcdatamodeld */; };
 		AA27C13523FE7D5B00A54265 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA27C13423FE7D5B00A54265 /* Assets.xcassets */; };
 		AA27C13823FE7D5B00A54265 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA27C13623FE7D5B00A54265 /* LaunchScreen.storyboard */; };
+		AA27C14423FE7F8700A54265 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA27C14323FE7F8700A54265 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		AA27C13423FE7D5B00A54265 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA27C13723FE7D5B00A54265 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA27C13923FE7D5B00A54265 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA27C14323FE7F8700A54265 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,8 +61,9 @@
 			isa = PBXGroup;
 			children = (
 				AA27C12823FE7D5800A54265 /* AppDelegate.swift */,
-				AA27C12A23FE7D5800A54265 /* SceneDelegate.swift */,
 				AA27C12C23FE7D5800A54265 /* ViewController.swift */,
+				AA27C14323FE7F8700A54265 /* SecondViewController.swift */,
+				AA27C12A23FE7D5800A54265 /* SceneDelegate.swift */,
 				AA27C12E23FE7D5800A54265 /* Main.storyboard */,
 				AA27C13423FE7D5B00A54265 /* Assets.xcassets */,
 				AA27C13623FE7D5B00A54265 /* LaunchScreen.storyboard */,
@@ -145,6 +148,7 @@
 				AA27C12923FE7D5800A54265 /* AppDelegate.swift in Sources */,
 				AA27C13323FE7D5800A54265 /* TransferBetweenVC.xcdatamodeld in Sources */,
 				AA27C12B23FE7D5800A54265 /* SceneDelegate.swift in Sources */,
+				AA27C14423FE7F8700A54265 /* SecondViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
